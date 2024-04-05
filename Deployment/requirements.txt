@@ -1,0 +1,6 @@
+pickle
+streamlit 
+pandas
+altair 
+numpy 
+streamlit==1.32.2
