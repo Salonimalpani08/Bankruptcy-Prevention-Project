@@ -12,7 +12,7 @@ import altair as alt
 import numpy as np
 
 # Load the model
-load = open('rnd.pkl', 'rb')
+load = open('Deployment/rnd.pkl', 'rb')
 model = pickle.load(load)
 
 # Prediction function
@@ -41,7 +41,7 @@ def visualize():
 
 # Main function
 def main():
-    st.title('Bankruptcy Prevention Project 🧬')
+    st.title('Bankruptcy Prevention Project🧬')
 
     # Create tabs
     tabs = ["Prediction", "Visualization"]
